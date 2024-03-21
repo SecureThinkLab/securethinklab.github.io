@@ -1,0 +1,40 @@
+[[main]]
+  name = "About"
+  pageRef = "/about/"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  pageRef = "/blog/"
+  weight = 20
+
+[[main]]
+  name = "Tags"
+  pageRef = "/tags/"
+  weight = 40
+
+[[social]]
+  name = "1Website"
+  pre = "fas fa-globe"
+  url = "https://www.consulthink.it"
+  weight = 10
+
+[[social]]
+  name = "2GitHub"
+  pre = "fab fa-github"
+  url = "https://github.com/SecureThinkLab"
+  weight = 10 
+
+[[social]]
+  name = "3LinkedIn"
+  pre = "fab linkedin"
+  url = "https://www.linkedin.com/company/consulthink-spa"
+  weight = 10
+
+# toml-docs-start sample-navigation
+[[sample]]
+  name = "Blog"
+  pageRef = "/blog/"
+  weight = 10
+
+# toml-docs-end sample-navigation

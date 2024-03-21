@@ -1,0 +1,5 @@
+baseURL = 'https://securethinklab.github.io/'
+languageCode = 'en-us'
+title = 'SecureThinkLab'
+[[module.imports]]
+path = 'github.com/gethinode/hinode'

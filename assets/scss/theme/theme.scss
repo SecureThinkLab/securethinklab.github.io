@@ -1,0 +1,16 @@
+// Placeholder to quickly add your own styles
+// The file is included last in the build pipeline
+
+thead {
+        background-color: #82929e;
+  		border-bottom: 2px solid black;
+    }
+
+tbody {
+  		box-sizing: border-box;
+}
+
+td,th {	padding: 0.5em;
+  		border-bottom: 1px solid black;
+  		vertical-align: middle;
+}
