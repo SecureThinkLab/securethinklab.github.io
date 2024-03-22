@@ -1,4 +1,4 @@
-baseURL = 'https://securethinklab.com/'
+baseURL = 'http://securethinklab.com/'
 languageCode = 'en-us'
 title = 'SecureThinkLab'
 [[module.imports]]
