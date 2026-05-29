@@ -1,3 +1,4 @@
+disableHugoGeneratorInject = true
 baseURL = 'https://securethinklab.com/'
 languageCode = 'en-us'
 title = 'SecureThinkLab'
