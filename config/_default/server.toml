@@ -16,7 +16,8 @@
         media-src 'self'; \
         object-src 'none'; \
         script-src 'self'; \
-        style-src 'self' 'unsafe-inline'; \
+        frame-ancestors 'none'; \
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; \
         """
     Permissions-Policy = 'geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(), payment=() '
     Referrer-Policy = 'strict-origin'

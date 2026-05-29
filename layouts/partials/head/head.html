@@ -1,6 +1,23 @@
 {{ define "head" }}
     {{ $desc := .Page.Description | default (.Page.Content | safeHTML | truncate 150) -}}
     <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy"
+        content="
+            base-uri 'self';
+            connect-src 'self';
+            default-src 'none';
+            font-src 'self' fonts.gstatic.com;
+            form-action 'self';
+            frame-src 'none';
+            img-src 'self' data:;
+            manifest-src 'self';
+            media-src 'self';
+            object-src 'none';
+            script-src 'self';
+            frame-ancestors 'none';
+            style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    ">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ partialCached "head/stylesheet-core.html" . -}}
 
